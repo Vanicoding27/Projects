@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(241, 240, 244);
+}
+.container{
+    height: 350px;
+    width: 250px;
+    /* background: linear-gradient(rgb(248, 156, 171) , cyan); */
+    background: linear-gradient( rgb(81, 53, 87),aqua);
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+.search_bar{
+    margin-left: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+.search_bar button img{
+    height: 40px;
+    width: 40px;
+
+}
+.search_bar button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffffff75;
+    border: none;
+    margin-left: 10px;
+}
+/* input to check weather for a particular place */
+.input-region{
+    color:rgb(28, 28, 38);
+    background-color: #ffffff75;
+    border: none;
+    border-radius: 18px;
+    width: 140px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 12px;
+
+}
+
+.temperature{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.displayDegreeTemp{
+    color:rgba(0, 0, 0, 0.961);
+    font-size: 35px;
+    font-family: sans-serif;
+
+
+}
+.weather_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_img img{
+    height: 150px;
+}
+.place{
+    color:rgba(0, 0, 0, 0.961);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.search{
+    background-color: none;
+    height: 20px;
+    width: 20px;
+}
+.weather_status{
+    margin: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+

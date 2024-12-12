@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(233, 165, 64);
+}
+
+
+h1{
+    color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem;
+
+}
+.projects{
+    display:flex;
+}
+.prjct{
+    margin:10px;
+    height: 40vh;
+    width:30vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.title1{
+    background-color: black;
+    color: white;
+    align-content: center;
+    
+   
+}
+button{
+    background-color: #e4be3e71;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 100px;
+    padding: 0 25px;
+    transition: all cubic-bezier(1, 0, 0, 1)00ms;
+}
